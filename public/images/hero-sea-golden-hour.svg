@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 2400 1350" role="img" aria-label="Hero placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6c07a"/>
+      <stop offset="100%" stop-color="#e08b52"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8542f"/>
+      <stop offset="100%" stop-color="#2a3f56"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2400" height="837" fill="url(#sky)"/>
+  <rect y="837" width="2400" height="513" fill="url(#sea)"/>
+  <rect width="2400" height="1350" fill="url(#sun)"/>
+  <rect y="836" width="2400" height="2" fill="#b08d57" opacity="0.8"/>
+  <g fill="#fbf8f3" opacity="0.14">
+    <rect x="0" y="958.5" width="2400" height="5.4"/>
+    <rect x="0" y="1066.5" width="2400" height="5.4"/>
+    <rect x="0" y="1201.5" width="2400" height="5.4"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="1200" y="675" font-size="70" fill="#fbf8f3" letter-spacing="2.8000000000000003">Hero</text>
+    <text x="1200" y="768.1" font-size="49" fill="#fbf8f3" opacity="0.85" font-family="system-ui, sans-serif" letter-spacing="8.82">PLACEHOLDER — sea at golden hour, full-bleed</text>
+  </g>
+</svg>

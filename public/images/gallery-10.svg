@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000" role="img" aria-label="The morning catch placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efe7db"/>
+      <stop offset="100%" stop-color="#d9c9b2"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8967c"/>
+      <stop offset="100%" stop-color="#4a5b70"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1500" height="620" fill="url(#sky)"/>
+  <rect y="620" width="1500" height="380" fill="url(#sea)"/>
+  <rect width="1500" height="1000" fill="url(#sun)"/>
+  <rect y="619" width="1500" height="2" fill="#b08d57" opacity="0.8"/>
+  <g fill="#fbf8f3" opacity="0.14">
+    <rect x="0" y="710" width="1500" height="4"/>
+    <rect x="0" y="790" width="1500" height="4"/>
+    <rect x="0" y="890" width="1500" height="4"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="750" y="500" font-size="52" fill="#fbf8f3" letter-spacing="2.08">The morning catch</text>
+    <text x="750" y="568.4" font-size="36" fill="#fbf8f3" opacity="0.85" font-family="system-ui, sans-serif" letter-spacing="6.4799999999999995">PLACEHOLDER — gallery 10</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-label="Aperitivo placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6c07a"/>
+      <stop offset="100%" stop-color="#e08b52"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8542f"/>
+      <stop offset="100%" stop-color="#2a3f56"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="992" fill="url(#sky)"/>
+  <rect y="992" width="1200" height="608" fill="url(#sea)"/>
+  <rect width="1200" height="1600" fill="url(#sun)"/>
+  <rect y="991" width="1200" height="2" fill="#b08d57" opacity="0.8"/>
+  <g fill="#fbf8f3" opacity="0.14">
+    <rect x="0" y="1136" width="1200" height="6.4"/>
+    <rect x="0" y="1264" width="1200" height="6.4"/>
+    <rect x="0" y="1424" width="1200" height="6.4"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="600" y="800" font-size="62" fill="#fbf8f3" letter-spacing="2.48">Aperitivo</text>
+    <text x="600" y="881.7" font-size="43" fill="#fbf8f3" opacity="0.85" font-family="system-ui, sans-serif" letter-spacing="7.739999999999999">PLACEHOLDER — gallery 09</text>
+  </g>
+</svg>

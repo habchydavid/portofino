@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400" role="img" aria-label="Pasta, by hand placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3ece2"/>
+      <stop offset="100%" stop-color="#e3d3bd"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0643c"/>
+      <stop offset="100%" stop-color="#14263c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="868" fill="url(#sky)"/>
+  <rect y="868" width="1400" height="532" fill="url(#sea)"/>
+  <rect width="1400" height="1400" fill="url(#sun)"/>
+  <rect y="867" width="1400" height="2" fill="#b08d57" opacity="0.8"/>
+  <g fill="#fbf8f3" opacity="0.14">
+    <rect x="0" y="994" width="1400" height="5.6000000000000005"/>
+    <rect x="0" y="1106" width="1400" height="5.6000000000000005"/>
+    <rect x="0" y="1246" width="1400" height="5.6000000000000005"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="700" y="700" font-size="73" fill="#fbf8f3" letter-spacing="2.92">Pasta, by hand</text>
+    <text x="700" y="795" font-size="50" fill="#fbf8f3" opacity="0.85" font-family="system-ui, sans-serif" letter-spacing="9">PLACEHOLDER — gallery 07</text>
+  </g>
+</svg>

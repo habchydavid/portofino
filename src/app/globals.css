@@ -1,0 +1,315 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Portofino design system
+   Mediterranean coastal elegance: warm off-white ground, deep navy ink,
+   terracotta accent, brass hairlines.
+   All contrast pairings below meet WCAG AA (see README > Accessibility).
+   ========================================================================== */
+@theme {
+  /* --- Colour ------------------------------------------------------------
+     sand      page ground (warm off-white)
+     shell     raised surfaces / alternating bands
+     navy      primary ink and dark sections
+     ink-muted secondary body copy on sand  (6.6:1)
+     terracotta       decorative accent only (rules, icons, overlays)
+     terracotta-deep  accent for text and buttons (5.6:1 on sand, 5.9:1 w/ white)
+     brass     hairline rules and dividers (decorative only)
+  */
+  --color-sand: #fbf8f3;
+  --color-shell: #f3ece2;
+  --color-navy: #14263c;
+  --color-navy-soft: #1d3b57;
+  --color-ink: #14263c;
+  --color-ink-muted: #4a5b70;
+  --color-terracotta: #c0643c;
+  --color-terracotta-deep: #a24a26;
+  --color-brass: #b08d57;
+  --color-sea: #2e6f7e;
+
+  /* --- Type --------------------------------------------------------------- */
+  --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Fluid display scale. Steps are ~1.25 apart at the small end and open up
+     on wide viewports where the photography carries the page. */
+  --text-display: clamp(2.75rem, 1.6rem + 5.6vw, 6rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.02em;
+  --text-h1: clamp(2.25rem, 1.4rem + 3.6vw, 4rem);
+  --text-h1--line-height: 1.08;
+  --text-h1--letter-spacing: -0.015em;
+  --text-h2: clamp(1.75rem, 1.2rem + 2.1vw, 2.75rem);
+  --text-h2--line-height: 1.15;
+  --text-h2--letter-spacing: -0.01em;
+  --text-h3: clamp(1.25rem, 1.05rem + 0.8vw, 1.625rem);
+  --text-h3--line-height: 1.25;
+  --text-lead: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem);
+  --text-lead--line-height: 1.7;
+  --text-eyebrow: 0.8125rem;
+  --text-eyebrow--line-height: 1.2;
+  --text-eyebrow--letter-spacing: 0.22em;
+
+  /* --- Spacing ------------------------------------------------------------
+     Section rhythm. `--space-section` is the vertical beat between bands. */
+  --spacing-section: clamp(4.5rem, 3rem + 6vw, 9rem);
+  --spacing-gutter: clamp(1.25rem, 0.75rem + 2vw, 3rem);
+
+  /* --- Motion -------------------------------------------------------------- */
+  --ease-out-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Anchored menu categories must clear the sticky header. */
+    scroll-padding-top: 6.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-sand);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* A single, visible focus treatment everywhere. Never removed. */
+  :focus-visible {
+    outline: 2px solid var(--color-terracotta-deep);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-terracotta);
+    color: #fff;
+  }
+}
+
+@layer components {
+  /* Page container. Matches the gutter token so bands line up edge to edge. */
+  .shell {
+    width: 100%;
+    max-width: 78rem;
+    margin-inline: auto;
+    padding-inline: var(--spacing-gutter);
+  }
+
+  .shell-narrow {
+    width: 100%;
+    max-width: 48rem;
+    margin-inline: auto;
+    padding-inline: var(--spacing-gutter);
+  }
+
+  /* Small caps label that opens most sections. */
+  .eyebrow {
+    font-size: var(--text-eyebrow);
+    letter-spacing: var(--text-eyebrow--letter-spacing);
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-terracotta-deep);
+  }
+
+  /* Light enough to clear 4.5:1 against the hero scrim, not just solid navy. */
+  .eyebrow-on-dark {
+    color: #f0cfae;
+  }
+
+  /* Brass hairline used as a section divider and under the eyebrow. */
+  .hairline {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      var(--color-brass),
+      color-mix(in srgb, var(--color-brass) 15%, transparent)
+    );
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.75rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border-radius: 2px;
+    transition:
+      background-color 200ms var(--ease-out-soft),
+      color 200ms var(--ease-out-soft),
+      border-color 200ms var(--ease-out-soft),
+      transform 200ms var(--ease-out-soft);
+  }
+
+  .btn:active {
+    transform: translateY(1px);
+  }
+
+  .btn-primary {
+    background-color: var(--color-terracotta-deep);
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background-color: #8c3d1e;
+  }
+
+  .btn-secondary {
+    border: 1px solid var(--color-navy);
+    color: var(--color-navy);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-navy);
+    color: var(--color-sand);
+  }
+
+  .btn-on-dark {
+    border: 1px solid rgba(251, 248, 243, 0.65);
+    color: var(--color-sand);
+  }
+
+  .btn-on-dark:hover {
+    background-color: var(--color-sand);
+    color: var(--color-navy);
+  }
+
+  /* Top of an inner page: clears the fixed header. Collapses when printing,
+     where the header is not there to clear. */
+  .page-head {
+    padding-top: clamp(9rem, 7rem + 4vw, 11rem);
+  }
+
+  /* Skip link — visible the moment it takes focus. */
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 100;
+    background: var(--color-navy);
+    color: var(--color-sand);
+    padding: 0.75rem 1.25rem;
+    border-radius: 2px;
+    transition: top 150ms var(--ease-out-soft);
+  }
+
+  .skip-link:focus {
+    top: 1rem;
+  }
+}
+
+@layer utilities {
+  /* Fade-up on scroll. Elements start hidden only when JS can reveal them
+     (see components/Reveal.tsx) so a no-JS visitor still sees everything. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    transition:
+      opacity 700ms var(--ease-out-soft),
+      transform 700ms var(--ease-out-soft);
+    will-change: opacity, transform;
+  }
+
+  .reveal-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+}
+
+/* ==========================================================================
+   Print — tuned for the menu page, which people actually print.
+   ========================================================================== */
+@media print {
+  @page {
+    margin: 14mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+  }
+
+  /* Chrome and friends drop background colours by default; make the dark
+     bands readable rather than relying on them. */
+  .no-print,
+  header[data-site-header],
+  footer[data-site-footer],
+  nav {
+    display: none !important;
+  }
+
+  /* Reveal-on-scroll must never withhold content from the printer: a guest
+     can hit Print before anything below the fold has been revealed. */
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .page-head {
+    padding-top: 0 !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #555;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid-page;
+  }
+
+  li,
+  .menu-item {
+    break-inside: avoid;
+  }
+}
+
+.print-only {
+  display: none;
+}

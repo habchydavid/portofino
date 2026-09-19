@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="Burrata placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3ece2"/>
+      <stop offset="100%" stop-color="#e3d3bd"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0643c"/>
+      <stop offset="100%" stop-color="#14263c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="744" fill="url(#sky)"/>
+  <rect y="744" width="1200" height="456" fill="url(#sea)"/>
+  <rect width="1200" height="1200" fill="url(#sun)"/>
+  <rect y="743" width="1200" height="2" fill="#b08d57" opacity="0.8"/>
+  <g fill="#fbf8f3" opacity="0.14">
+    <rect x="0" y="852" width="1200" height="4.8"/>
+    <rect x="0" y="948" width="1200" height="4.8"/>
+    <rect x="0" y="1068" width="1200" height="4.8"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="600" y="600" font-size="62" fill="#fbf8f3" letter-spacing="2.48">Burrata</text>
+    <text x="600" y="681.7" font-size="43" fill="#fbf8f3" opacity="0.85" font-family="system-ui, sans-serif" letter-spacing="7.739999999999999">PLACEHOLDER — gallery 03</text>
+  </g>
+</svg>

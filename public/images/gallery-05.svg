@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Lanterns placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0a98a"/>
+      <stop offset="100%" stop-color="#b5657a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3f6b"/>
+      <stop offset="100%" stop-color="#16233a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="620" fill="url(#sky)"/>
+  <rect y="620" width="1600" height="380" fill="url(#sea)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <rect y="619" width="1600" height="2" fill="#b08d57" opacity="0.8"/>
+  <g fill="#fbf8f3" opacity="0.14">
+    <rect x="0" y="710" width="1600" height="4"/>
+    <rect x="0" y="790" width="1600" height="4"/>
+    <rect x="0" y="890" width="1600" height="4"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="800" y="500" font-size="52" fill="#fbf8f3" letter-spacing="2.08">Lanterns</text>
+    <text x="800" y="568.4" font-size="36" fill="#fbf8f3" opacity="0.85" font-family="system-ui, sans-serif" letter-spacing="6.4799999999999995">PLACEHOLDER — gallery 05</text>
+  </g>
+</svg>

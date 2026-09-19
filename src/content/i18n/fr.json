@@ -1,0 +1,259 @@
+{
+  "_TODO": "Traduction de départ, à faire relire par un locuteur natif avant la mise en ligne. Les mêmes contenus marqués TODO en anglais restent à remplacer ici.",
+  "localeName": "Français",
+  "htmlLang": "fr",
+  "nav": {
+    "home": "Accueil",
+    "menu": "Carte",
+    "about": "À propos",
+    "gallery": "Galerie",
+    "reservations": "Réservations",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "primaryLabel": "Principale",
+    "skipToContent": "Aller au contenu principal",
+    "languageLabel": "Langue"
+  },
+  "common": {
+    "reserve": "Réserver une table",
+    "viewMenu": "Voir la carte",
+    "callUs": "Appelez-nous",
+    "whatsapp": "Écrire sur WhatsApp",
+    "directions": "Itinéraire",
+    "seeAll": "Tout voir",
+    "openDaily": "Ouvert tous les jours",
+    "required": "obligatoire"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Vieux Souk de Jounieh · Liban",
+      "title": "Portofino",
+      "subtitle": "La cuisine italienne, la mer ouverte, et une terrasse qui descend droit sur le sable.",
+      "scroll": "Faites défiler"
+    },
+    "story": {
+      "eyebrow": "Notre histoire",
+      "title": "Une table au bord de l'eau",
+      "body": [
+        "Portofino est né d'une petite cuisine derrière le Vieux Souk, qui nourrissait les pêcheurs amarrés à quelques mètres de la porte. Les recettes venaient de Ligurie ; le poisson venait de la baie de Jounieh. Peu de choses ont changé depuis.",
+        "Nous achetons toujours la pêche au port le matin, nous roulons toujours les pâtes à la main, et nous dressons toujours les tables assez près de l'eau pour que le premier rang l'entende."
+      ],
+      "cta": "En savoir plus"
+    },
+    "dishes": {
+      "eyebrow": "Nos signatures",
+      "title": "Trois plats qui nous ressemblent",
+      "intro": "Le reste de la carte suit la saison et la pêche. Ces trois-là, non.",
+      "cta": "Voir toute la carte",
+      "items": [
+        {
+          "name": "Spaghetti alle Vongole",
+          "description": "Des palourdes ouvertes à la commande, du vin blanc, de l'ail, et la retenue de s'arrêter là.",
+          "alt": "TODO : remplacer par une photographie des spaghetti alle vongole"
+        },
+        {
+          "name": "Pesce del Giorno",
+          "description": "Le poisson arrivé ce matin, cuit en croûte de sel et découpé devant vous.",
+          "alt": "TODO : remplacer par une photographie du poisson du jour en croûte de sel"
+        },
+        {
+          "name": "Tiramisù Classico",
+          "description": "Mascarpone, espresso tiré une minute plus tôt, et une main généreuse sur le cacao.",
+          "alt": "TODO : remplacer par une photographie du tiramisù maison"
+        }
+      ]
+    },
+    "terrace": {
+      "eyebrow": "La terrasse",
+      "title": "Dîner presque les pieds dans l'eau",
+      "body": [
+        "Trente tables sous des parasols blancs, quelques marches jusqu'au sable, et toute la baie devant vous. Le déjeuner y est lumineux et sans hâte ; à neuf heures les lanternes sont allumées et la mer est devenue noire.",
+        "Le premier rang part en premier — dites-le-nous et nous ferons de notre mieux."
+      ],
+      "cta": "Réserver en terrasse",
+      "alt": "TODO : remplacer par une photographie large de la terrasse au crépuscule"
+    },
+    "music": {
+      "eyebrow": "Le week-end",
+      "title": "Musique live tous les vendredis et samedis",
+      "body": "Un trio en terrasse à partir de neuf heures, et tout l'été des artistes qui se succèdent — une chanteuse une semaine, un quatuor la suivante. Pas de droit d'entrée, pas de minimum. Réservez tôt : la terrasse se remplit.",
+      "cta": "Réserver pour le week-end",
+      "alt": "TODO : remplacer par une photographie des musiciens en terrasse"
+    },
+    "testimonials": {
+      "eyebrow": "Nos clients",
+      "title": "Ce qu'ils en disent",
+      "previous": "Témoignage précédent",
+      "next": "Témoignage suivant",
+      "goTo": "Aller au témoignage",
+      "counterLabel": "Témoignage {current} sur {total}",
+      "items": [
+        {
+          "quote": "Les vongole valent à elles seules le trajet depuis Beyrouth. Nous sommes restés jusqu'à ce qu'ils éteignent les lanternes.",
+          "author": "TODO : nom réel",
+          "source": "TODO : source, par ex. avis Google, 2025"
+        },
+        {
+          "quote": "Nous avions demandé une table près de l'eau pour notre anniversaire ; elle était dressée aux chandelles avant notre arrivée. Personne n'en a parlé. C'est tout l'endroit, en fait.",
+          "author": "TODO : nom réel",
+          "source": "TODO : source, par ex. TripAdvisor, 2025"
+        },
+        {
+          "quote": "La meilleure table italienne de la côte, et de loin. Le poisson est acheté le matin même et cela se goûte.",
+          "author": "TODO : nom réel",
+          "source": "TODO : source, par ex. Instagram, 2025"
+        }
+      ]
+    },
+    "location": {
+      "eyebrow": "Nous trouver",
+      "title": "Sur le front de mer, dans le Vieux Souk",
+      "addressLabel": "Adresse",
+      "hoursLabel": "Horaires",
+      "phoneLabel": "Réservations",
+      "musicLabel": "Musique live",
+      "cta": "Plan et itinéraire"
+    }
+  },
+  "menuPage": {
+    "eyebrow": "La carte",
+    "title": "Carte",
+    "intro": "Des pâtes faites maison, un four à bois, et ce que les barques ont rapporté. Prix en {currency}, TVA comprise.",
+    "jumpLabel": "Aller à une section",
+    "printCta": "Imprimer la carte",
+    "tagsLabel": "Régimes",
+    "marketPrice": "Prix du marché",
+    "signature": "Signature",
+    "allergyNote": "Merci de signaler toute allergie à votre serveur avant de commander."
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Quarante tables, une cuisine, et la mer",
+    "lead": "TODO : remplacer par la véritable histoire du restaurant — qui l'a ouvert, quand, et pourquoi ici.",
+    "sections": [
+      {
+        "heading": "Les débuts",
+        "body": [
+          "TODO : à remplacer. La famille a repris le bail d'un entrepôt de pêcheur en bordure du Vieux Souk et cuisinait pour qui poussait la porte. Onze couverts, une seule carte, écrite chaque matin sur une ardoise près de l'entrée.",
+          "TODO : à remplacer. C'est le même bâtiment. L'ardoise est toujours près de la porte, et le poisson vient toujours des barques que l'on voit depuis la terrasse."
+        ],
+        "alt": "TODO : remplacer par une photographie d'archive de la première salle"
+      },
+      {
+        "heading": "La cuisine",
+        "body": [
+          "TODO : remplacer par le nom du chef, sa formation et sa philosophie. Notre chef s'est formé en Ligurie et sur la côte amalfitaine avant de rentrer au Liban, et garde une carte volontairement courte pour que tout y soit fait correctement.",
+          "TODO : à remplacer. Les pâtes sont roulées chaque matin, le pain est cuit deux fois par jour, et rien n'est commandé côté poisson avant le passage au port."
+        ],
+        "alt": "TODO : remplacer par un portrait du chef en cuisine"
+      },
+      {
+        "heading": "La terrasse et la mer",
+        "body": [
+          "TODO : à remplacer. La terrasse est venue plus tard, taillée dans la roche pour que les tables tiennent une marche au-dessus de l'eau. L'été, c'est tout le restaurant ; l'hiver, la salle reprend la main et les vitres se couvrent de buée.",
+          "TODO : à remplacer. Le coucher de soleil tombe entre sept et huit heures selon le mois, et l'équipe vous dira quand lever les yeux."
+        ],
+        "alt": "TODO : remplacer par une photographie de la terrasse face à la mer"
+      }
+    ],
+    "cta": {
+      "title": "Venez voir",
+      "body": "Nous sommes ouverts tous les jours de 13h à 1h du matin. La réservation est conseillée en terrasse, surtout le week-end."
+    }
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "La salle, la terrasse, les assiettes",
+    "intro": "TODO : remplacer chaque image ci-dessous par de vraies photographies. Les légendes servent aussi de texte alternatif.",
+    "openLabel": "Ouvrir l'image",
+    "closeLabel": "Fermer l'image",
+    "previousLabel": "Image précédente",
+    "nextLabel": "Image suivante",
+    "counterLabel": "Image {current} sur {total}"
+  },
+  "reservations": {
+    "eyebrow": "Réservations",
+    "title": "Réserver une table",
+    "intro": "Remplissez ce formulaire : nous ouvrirons WhatsApp avec votre demande déjà rédigée. Envoyez-la et nous confirmons dans l'heure. Pressé, ou pour ce soir ? Appelez-nous plutôt.",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Jeanne Haddad",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+961 70 000 000",
+      "email": "E-mail",
+      "emailPlaceholder": "jeanne@exemple.com",
+      "emailHint": "Facultatif — utilisé seulement si nous ne pouvons pas vous joindre par téléphone.",
+      "date": "Date",
+      "time": "Heure",
+      "partySize": "Nombre de personnes",
+      "guests_one": "{count} personne",
+      "guests_other": "{count} personnes",
+      "guestsLarge": "9 et plus — merci d'appeler",
+      "notes": "Quelque chose à nous signaler ?",
+      "notesPlaceholder": "Une table en terrasse, un anniversaire, une chaise haute, une allergie…",
+      "notesHint": "Facultatif.",
+      "submit": "Envoyer la demande sur WhatsApp",
+      "submitting": "Ouverture de WhatsApp…",
+      "orCall": "Ou appelez-nous au {phone}",
+      "hoursNote": "Nous prenons les réservations tous les jours entre 13h et 1h du matin.",
+      "legend": "Vos coordonnées",
+      "legendBooking": "Votre réservation",
+      "errorsTitle": "Merci de vérifier les points suivants :",
+      "successTitle": "WhatsApp s'ouvre",
+      "successBody": "S'il ne se passe rien, touchez le bouton ci-dessous ou appelez-nous au {phone}. Votre demande n'est confirmée qu'à notre réponse.",
+      "successRetry": "Rouvrir WhatsApp",
+      "errors": {
+        "name": "Merci d'indiquer le nom de la réservation.",
+        "nameShort": "Merci de saisir au moins deux caractères.",
+        "phone": "Merci d'indiquer un numéro où vous joindre.",
+        "phoneInvalid": "Ce numéro ne semble pas valide. Indiquez l'indicatif, par ex. +961 70 000 000.",
+        "emailInvalid": "Cette adresse e-mail ne semble pas valide.",
+        "date": "Merci de choisir une date.",
+        "datePast": "Merci de choisir aujourd'hui ou une date à venir.",
+        "time": "Merci de choisir une heure.",
+        "timeClosed": "Nous servons entre 13h et 1h du matin. Merci de choisir une heure dans ce créneau.",
+        "partySize": "Merci d'indiquer le nombre de convives."
+      }
+    },
+    "whatsappMessage": "Bonjour Portofino, je souhaite réserver une table.\n\nNom : {name}\nTéléphone : {phone}\nE-mail : {email}\nDate : {date}\nHeure : {time}\nConvives : {partySize}\nNotes : {notes}",
+    "notProvided": "—",
+    "aside": {
+      "title": "Bon à savoir",
+      "items": [
+        "Les tables du premier rang sont peu nombreuses — demandez-les et nous ferons de notre mieux.",
+        "Les soirées du week-end se réservent plusieurs jours à l'avance, surtout les soirs de musique live.",
+        "Pour neuf convives ou plus, ou pour une privatisation, merci de nous appeler directement.",
+        "Nous gardons votre table quinze minutes. En retard ? Un appel suffit à la conserver."
+      ]
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Nous trouver, nous appeler, nous suivre",
+    "intro": "Sur le front de mer, dans le Vieux Souk de Jounieh, à une vingtaine de minutes au nord de Beyrouth.",
+    "addressLabel": "Adresse",
+    "hoursLabel": "Horaires d'ouverture",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "E-mail",
+    "socialLabel": "Nous suivre",
+    "parkingLabel": "Stationnement",
+    "parkingBody": "TODO : remplacer par les informations réelles — voiturier, stationnement en voirie, parking le plus proche.",
+    "mapTitle": "Carte indiquant Portofino dans le Vieux Souk de Jounieh",
+    "mapFallback": "Ouvrir la carte dans un nouvel onglet"
+  },
+  "footer": {
+    "tagline": "Italien, en bord de mer, dans le Vieux Souk de Jounieh.",
+    "navLabel": "Pied de page",
+    "exploreLabel": "Explorer",
+    "visitLabel": "Visiter",
+    "followLabel": "Suivre",
+    "rights": "Tous droits réservés.",
+    "credit": "TODO : mention de crédit, si vous en souhaitez une."
+  },
+  "notFound": {
+    "title": "Cette page a dérivé",
+    "body": "La page que vous cherchiez n'est pas ici. La carte et la mer, elles, sont exactement où vous les aviez laissées.",
+    "cta": "Retour à l'accueil"
+  }
+}

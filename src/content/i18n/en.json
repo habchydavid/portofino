@@ -1,0 +1,259 @@
+{
+  "_TODO": "Copy is placeholder where it describes the restaurant's history, chef and guest quotes. Replace those before launch; UI labels are ready to use.",
+  "localeName": "English",
+  "htmlLang": "en",
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "gallery": "Gallery",
+    "reservations": "Reservations",
+    "contact": "Contact",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "primaryLabel": "Primary",
+    "skipToContent": "Skip to main content",
+    "languageLabel": "Language"
+  },
+  "common": {
+    "reserve": "Reserve a table",
+    "viewMenu": "View menu",
+    "callUs": "Call us",
+    "whatsapp": "Message on WhatsApp",
+    "directions": "Get directions",
+    "seeAll": "See all",
+    "openDaily": "Open daily",
+    "required": "required"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Jounieh Old Souk · Lebanon",
+      "title": "Portofino",
+      "subtitle": "Italian cooking, the open sea, and a terrace that runs straight onto the sand.",
+      "scroll": "Scroll to explore"
+    },
+    "story": {
+      "eyebrow": "Our story",
+      "title": "A table at the water's edge",
+      "body": [
+        "Portofino began as a small kitchen behind the Old Souk, cooking for the fishermen who tied up a few metres from the door. The recipes came from Liguria; the fish came from Jounieh Bay. Very little has changed since.",
+        "We still buy the catch at the port in the morning, still roll the pasta by hand, and still set the tables so close to the water that the first row hears it."
+      ],
+      "cta": "More about us"
+    },
+    "dishes": {
+      "eyebrow": "Signature",
+      "title": "Three plates we are known for",
+      "intro": "The rest of the menu changes with the season and the catch. These do not.",
+      "cta": "See the full menu",
+      "items": [
+        {
+          "name": "Spaghetti alle Vongole",
+          "description": "Clams opened to order, white wine, garlic, and the restraint to stop there.",
+          "alt": "TODO: replace with a photograph of spaghetti alle vongole"
+        },
+        {
+          "name": "Pesce del Giorno",
+          "description": "Whatever came in this morning, baked in a salt crust and carved at your table.",
+          "alt": "TODO: replace with a photograph of the whole salt-baked fish of the day"
+        },
+        {
+          "name": "Tiramisù Classico",
+          "description": "Mascarpone, espresso pulled a minute earlier, and a heavy hand with the cocoa.",
+          "alt": "TODO: replace with a photograph of the house tiramisù"
+        }
+      ]
+    },
+    "terrace": {
+      "eyebrow": "The terrace",
+      "title": "Dinner with your feet almost in the sea",
+      "body": [
+        "Thirty tables under white parasols, a run of steps down to the sand, and the whole bay in front of you. Lunch is bright and unhurried; by nine the lanterns are lit and the water has gone dark.",
+        "The front row books out first — tell us if you want it and we will do our best."
+      ],
+      "cta": "Reserve a terrace table",
+      "alt": "TODO: replace with a wide photograph of the beachfront terrace at dusk"
+    },
+    "music": {
+      "eyebrow": "Weekends",
+      "title": "Live music every Friday and Saturday",
+      "body": "A trio on the terrace from nine, and through the summer a rotating cast of performers — a singer one week, a quartet the next. No cover charge, no minimum. Just book early, because the terrace fills.",
+      "cta": "Book a weekend table",
+      "alt": "TODO: replace with a photograph of the weekend musicians on the terrace"
+    },
+    "testimonials": {
+      "eyebrow": "Guests",
+      "title": "What people say",
+      "previous": "Previous testimonial",
+      "next": "Next testimonial",
+      "goTo": "Go to testimonial",
+      "counterLabel": "Testimonial {current} of {total}",
+      "items": [
+        {
+          "quote": "The vongole alone would be worth the drive from Beirut. We stayed until they turned the lanterns off.",
+          "author": "TODO: real guest name",
+          "source": "TODO: source, e.g. Google review, 2025"
+        },
+        {
+          "quote": "We asked for a table by the water for our anniversary and they had set it with candles before we arrived. Nobody mentioned it. That is the whole place, really.",
+          "author": "TODO: real guest name",
+          "source": "TODO: source, e.g. TripAdvisor, 2025"
+        },
+        {
+          "quote": "Best Italian on the coast, and it is not close. The fish is bought that morning and you can taste it.",
+          "author": "TODO: real guest name",
+          "source": "TODO: source, e.g. Instagram, 2025"
+        }
+      ]
+    },
+    "location": {
+      "eyebrow": "Find us",
+      "title": "On the seafront, in the Old Souk",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "phoneLabel": "Reservations",
+      "musicLabel": "Live music",
+      "cta": "Directions and map"
+    }
+  },
+  "menuPage": {
+    "eyebrow": "The menu",
+    "title": "Menu",
+    "intro": "Handmade pasta, a wood oven, and whatever the boats brought in. Prices are in {currency} and include VAT.",
+    "jumpLabel": "Jump to a section",
+    "printCta": "Print this menu",
+    "tagsLabel": "Dietary",
+    "marketPrice": "Market price",
+    "signature": "Signature",
+    "allergyNote": "Please tell your waiter about any allergy before you order."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Forty tables, one kitchen, and the sea",
+    "lead": "TODO: replace with the real history of the restaurant — who opened it, when, and why here.",
+    "sections": [
+      {
+        "heading": "How it started",
+        "body": [
+          "TODO: replace. The family took the lease on a fisherman's store at the edge of the Old Souk and cooked for whoever walked in. There were eleven seats and one menu, written each morning on a board by the door.",
+          "TODO: replace. The building is the same one. The board is still by the door, and the fish still comes from the boats you can see from the terrace."
+        ],
+        "alt": "TODO: replace with an archival photograph of the original dining room"
+      },
+      {
+        "heading": "The kitchen",
+        "body": [
+          "TODO: replace with the chef's name, training and philosophy. Our chef trained in Liguria and on the Amalfi coast before coming back to Lebanon, and keeps the menu deliberately short so that everything on it is made properly.",
+          "TODO: replace. Pasta is rolled every morning, bread is baked twice a day, and nothing on the seafood list is ordered until the port has been visited."
+        ],
+        "alt": "TODO: replace with a portrait of the chef in the kitchen"
+      },
+      {
+        "heading": "The terrace and the sea",
+        "body": [
+          "TODO: replace. The terrace was added later, cut into the rock so the tables sit a step above the waterline. In summer it is the whole restaurant; in winter the dining room takes over and the windows fog.",
+          "TODO: replace. Sunset lands somewhere between seven and eight depending on the month, and the staff will tell you when to look up."
+        ],
+        "alt": "TODO: replace with a photograph of the terrace looking out to sea"
+      }
+    ],
+    "cta": {
+      "title": "Come and see it",
+      "body": "We are open every day from 1pm until 1am. Reservations are recommended for the terrace, particularly at weekends."
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "The room, the terrace, the plates",
+    "intro": "TODO: replace every image below with real photography. Captions double as alt text.",
+    "openLabel": "Open image",
+    "closeLabel": "Close image",
+    "previousLabel": "Previous image",
+    "nextLabel": "Next image",
+    "counterLabel": "Image {current} of {total}"
+  },
+  "reservations": {
+    "eyebrow": "Reservations",
+    "title": "Reserve a table",
+    "intro": "Fill this in and we will open WhatsApp with your request written out — send it and we will confirm within the hour. In a hurry, or booking for tonight? Call us instead.",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Jane Haddad",
+      "phone": "Phone number",
+      "phonePlaceholder": "+961 70 000 000",
+      "email": "Email",
+      "emailPlaceholder": "jane@example.com",
+      "emailHint": "Optional — only used if we cannot reach you by phone.",
+      "date": "Date",
+      "time": "Time",
+      "partySize": "Party size",
+      "guests_one": "{count} guest",
+      "guests_other": "{count} guests",
+      "guestsLarge": "9 or more — please call",
+      "notes": "Anything we should know?",
+      "notesPlaceholder": "A table on the terrace, a birthday, a high chair, an allergy…",
+      "notesHint": "Optional.",
+      "submit": "Send request on WhatsApp",
+      "submitting": "Opening WhatsApp…",
+      "orCall": "Or call us on {phone}",
+      "hoursNote": "We take bookings every day between 1pm and 1am.",
+      "legend": "Your details",
+      "legendBooking": "Your booking",
+      "errorsTitle": "Please check the following:",
+      "successTitle": "WhatsApp is opening",
+      "successBody": "If nothing happened, tap the button below or call us on {phone}. Your request is not confirmed until we reply.",
+      "successRetry": "Open WhatsApp again",
+      "errors": {
+        "name": "Please tell us the name for the booking.",
+        "nameShort": "Please enter at least two characters.",
+        "phone": "Please give us a phone number we can reach you on.",
+        "phoneInvalid": "That does not look like a phone number. Include the country code, e.g. +961 70 000 000.",
+        "emailInvalid": "That does not look like an email address.",
+        "date": "Please choose a date.",
+        "datePast": "Please choose today or a date in the future.",
+        "time": "Please choose a time.",
+        "timeClosed": "We serve between 1:00 PM and 1:00 AM. Please choose a time in that window.",
+        "partySize": "Please tell us how many are coming."
+      }
+    },
+    "whatsappMessage": "Hello Portofino, I would like to reserve a table.\n\nName: {name}\nPhone: {phone}\nEmail: {email}\nDate: {date}\nTime: {time}\nGuests: {partySize}\nNotes: {notes}",
+    "notProvided": "—",
+    "aside": {
+      "title": "Good to know",
+      "items": [
+        "Tables on the front row of the terrace are limited — ask and we will do our best.",
+        "Weekend evenings book out several days ahead, especially when there is live music.",
+        "For groups of nine or more, or a private event, please call us directly.",
+        "We hold your table for fifteen minutes. Running late? A quick call keeps it."
+      ]
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Find us, call us, follow us",
+    "intro": "On the seafront in the Jounieh Old Souk, about a twenty-minute drive north of Beirut.",
+    "addressLabel": "Address",
+    "hoursLabel": "Opening hours",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "socialLabel": "Follow us",
+    "parkingLabel": "Parking",
+    "parkingBody": "TODO: replace with real parking guidance — valet, street parking, nearest car park.",
+    "mapTitle": "Map showing Portofino in the Jounieh Old Souk",
+    "mapFallback": "Open the map in a new tab"
+  },
+  "footer": {
+    "tagline": "Italian, beachfront, in the Jounieh Old Souk.",
+    "navLabel": "Footer",
+    "exploreLabel": "Explore",
+    "visitLabel": "Visit",
+    "followLabel": "Follow",
+    "rights": "All rights reserved.",
+    "credit": "TODO: credit line, if you want one."
+  },
+  "notFound": {
+    "title": "This page has drifted off",
+    "body": "The page you were looking for is not here. The menu and the sea, however, are exactly where you left them.",
+    "cta": "Back to the home page"
+  }
+}

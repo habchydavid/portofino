@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1050" viewBox="0 0 1400 1050" role="img" aria-label="How it started placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efe7db"/>
+      <stop offset="100%" stop-color="#d9c9b2"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8967c"/>
+      <stop offset="100%" stop-color="#4a5b70"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="651" fill="url(#sky)"/>
+  <rect y="651" width="1400" height="399" fill="url(#sea)"/>
+  <rect width="1400" height="1050" fill="url(#sun)"/>
+  <rect y="650" width="1400" height="2" fill="#b08d57" opacity="0.8"/>
+  <g fill="#fbf8f3" opacity="0.14">
+    <rect x="0" y="745.5" width="1400" height="4.2"/>
+    <rect x="0" y="829.5" width="1400" height="4.2"/>
+    <rect x="0" y="934.5" width="1400" height="4.2"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="700" y="525" font-size="55" fill="#fbf8f3" letter-spacing="2.2">How it started</text>
+    <text x="700" y="597.2" font-size="38" fill="#fbf8f3" opacity="0.85" font-family="system-ui, sans-serif" letter-spacing="6.84">PLACEHOLDER — archival, the first dining room</text>
+  </g>
+</svg>

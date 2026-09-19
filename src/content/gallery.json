@@ -1,0 +1,17 @@
+{
+  "_TODO": "PLACEHOLDER IMAGES — every entry points at generated artwork in /public/images. Drop real photographs in and update `src`, `width`, `height` and `alt`. `alt` is read aloud by screen readers and shown as the lightbox caption, so describe the photograph, do not just name it.",
+  "images": [
+    { "src": "/images/gallery-01.svg", "width": 1200, "height": 1600, "alt": "TODO: the terrace during sunset service, tables lit low against an orange sky" },
+    { "src": "/images/gallery-02.svg", "width": 1600, "height": 1100, "alt": "TODO: Jounieh bay at midday seen from the restaurant steps" },
+    { "src": "/images/gallery-03.svg", "width": 1200, "height": 1200, "alt": "TODO: a whole burrata with tomatoes and basil, overhead" },
+    { "src": "/images/gallery-04.svg", "width": 1200, "height": 1500, "alt": "TODO: the wood-fired oven at the end of the terrace, pizza going in" },
+    { "src": "/images/gallery-05.svg", "width": 1600, "height": 1000, "alt": "TODO: lanterns strung above the terrace after dark" },
+    { "src": "/images/gallery-06.svg", "width": 1200, "height": 1500, "alt": "TODO: the weekend trio playing beside the terrace rail" },
+    { "src": "/images/gallery-07.svg", "width": 1400, "height": 1400, "alt": "TODO: hands rolling and cutting pasta on a floured bench" },
+    { "src": "/images/gallery-08.svg", "width": 1600, "height": 1067, "alt": "TODO: the front row of tables, a step above the waterline" },
+    { "src": "/images/gallery-09.svg", "width": 1200, "height": 1600, "alt": "TODO: spritz glasses on a table with the sea behind" },
+    { "src": "/images/gallery-10.svg", "width": 1500, "height": 1000, "alt": "TODO: the morning catch in crates at Jounieh port" },
+    { "src": "/images/gallery-11.svg", "width": 1200, "height": 1500, "alt": "TODO: tiramisù dusted with cocoa, close up" },
+    { "src": "/images/gallery-12.svg", "width": 1600, "height": 1100, "alt": "TODO: the last table of the night, chairs and empty glasses" }
+  ]
+}
