@@ -17,7 +17,7 @@ export const site = {
   // The deploy sets NEXT_PUBLIC_SITE_URL; the fallback is the production
   // domain.
   // TODO: replace the fallback with the real production domain.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://portofino-jounieh.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://portofinojounieh.com",
   locale: "en_GB",
 
   description:
@@ -32,7 +32,7 @@ export const site = {
   // Digits only, no "+" — this is what wa.me expects.
   whatsapp: "9619123456",
   // TODO: replace with the real reservations inbox.
-  email: "reservations@portofino-jounieh.com",
+  email: "reservations@portofinojounieh.com",
 
   // --- Address -------------------------------------------------------------
   address: {
