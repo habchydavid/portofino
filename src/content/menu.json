@@ -18,7 +18,10 @@
           "name": "Burrata di Andria",
           "description": "Whole burrata, sun-ripened tomatoes, basil, first-press olive oil.",
           "price": 18,
-          "tags": ["V", "GF"],
+          "tags": [
+            "V",
+            "GF"
+          ],
           "signature": true
         },
         {
@@ -31,19 +34,25 @@
           "name": "Polpo alla Griglia",
           "description": "Charred octopus, warm potato, Taggiasca olives, parsley oil.",
           "price": 24,
-          "tags": ["GF"]
+          "tags": [
+            "GF"
+          ]
         },
         {
           "name": "Carpaccio di Branzino",
           "description": "Raw sea bass from the morning boats, citrus, pink pepper.",
           "price": 22,
-          "tags": ["GF"]
+          "tags": [
+            "GF"
+          ]
         },
         {
           "name": "Melanzane alla Parmigiana",
           "description": "Layered aubergine, San Marzano, aged parmigiano.",
           "price": 16,
-          "tags": ["V"]
+          "tags": [
+            "V"
+          ]
         },
         {
           "name": "Tagliere Portofino",
@@ -75,13 +84,17 @@
           "name": "Cacio e Pepe",
           "description": "Tonnarelli, Pecorino Romano, cracked black pepper. Nothing else.",
           "price": 19,
-          "tags": ["V"]
+          "tags": [
+            "V"
+          ]
         },
         {
           "name": "Ravioli di Ricotta e Limone",
           "description": "Ricotta and lemon, brown butter, toasted almond.",
           "price": 23,
-          "tags": ["V"]
+          "tags": [
+            "V"
+          ]
         },
         {
           "name": "Pappardelle al Ragù",
@@ -103,10 +116,19 @@
       "description": "Forty-eight hour dough, wood-fired at the far end of the terrace.",
       "items": [
         {
+          "name": "Fichi e Prosciutto",
+          "description": "Figs, prosciutto, rocket, shaved parmigiano.",
+          "price": 24,
+          "tags": [],
+          "signature": true
+        },
+        {
           "name": "Margherita D.O.P.",
           "description": "San Marzano, fior di latte, basil, olive oil.",
           "price": 16,
-          "tags": ["V"]
+          "tags": [
+            "V"
+          ]
         },
         {
           "name": "Diavola",
@@ -118,7 +140,9 @@
           "name": "Quattro Formaggi",
           "description": "Gorgonzola, taleggio, fior di latte, parmigiano.",
           "price": 21,
-          "tags": ["V"]
+          "tags": [
+            "V"
+          ]
         },
         {
           "name": "Frutti di Mare",
@@ -130,7 +154,10 @@
           "name": "Ortolana",
           "description": "Grilled courgette, aubergine, pepper, cherry tomato.",
           "price": 18,
-          "tags": ["V", "VG"]
+          "tags": [
+            "V",
+            "VG"
+          ]
         }
       ]
     },
@@ -143,13 +170,17 @@
           "name": "Tagliata di Manzo",
           "description": "Sliced sirloin, rocket, parmigiano, aged balsamic.",
           "price": 42,
-          "tags": ["GF"]
+          "tags": [
+            "GF"
+          ]
         },
         {
           "name": "Pollo al Mattone",
           "description": "Brick-pressed chicken, rosemary, confit lemon.",
           "price": 29,
-          "tags": ["GF"]
+          "tags": [
+            "GF"
+          ]
         },
         {
           "name": "Costoletta alla Milanese",
@@ -161,7 +192,10 @@
           "name": "Melanzana Ripiena",
           "description": "Aubergine baked with farro, herbs and pine nuts.",
           "price": 24,
-          "tags": ["V", "VG"]
+          "tags": [
+            "V",
+            "VG"
+          ]
         }
       ]
     },
@@ -175,20 +209,27 @@
           "description": "The whole fish that came in this morning, salt-baked or grilled over coals, finished at your table.",
           "price": null,
           "priceNote": "Market price",
-          "tags": ["GF"],
+          "tags": [
+            "GF"
+          ],
           "signature": true
         },
         {
           "name": "Branzino al Sale",
           "description": "Whole sea bass in a salt crust, lemon and olive oil.",
           "price": 46,
-          "tags": ["GF"]
+          "tags": [
+            "GF"
+          ]
         },
         {
           "name": "Gamberoni alla Griglia",
           "description": "Grilled king prawns, garlic butter, grilled lemon.",
           "price": 38,
-          "tags": ["GF"]
+          "tags": [
+            "GF"
+          ],
+          "signature": true
         },
         {
           "name": "Fritto Misto",
@@ -213,32 +254,46 @@
           "name": "Tiramisù Classico",
           "description": "Mascarpone, espresso, Savoiardi, cocoa.",
           "price": 13,
-          "tags": ["V"],
+          "tags": [
+            "V"
+          ],
           "signature": true
         },
         {
           "name": "Panna Cotta ai Frutti di Bosco",
           "description": "Vanilla cream, forest berries.",
           "price": 12,
-          "tags": ["V", "GF"]
+          "tags": [
+            "V",
+            "GF"
+          ]
         },
         {
           "name": "Cannoli Siciliani",
           "description": "Ricotta, candied orange, pistachio.",
           "price": 12,
-          "tags": ["V"]
+          "tags": [
+            "V"
+          ]
         },
         {
           "name": "Sorbetto al Limone",
           "description": "Lemon sorbet, a splash of Prosecco.",
           "price": 10,
-          "tags": ["V", "VG", "GF"]
+          "tags": [
+            "V",
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Affogato",
           "description": "Fior di latte gelato drowned in espresso.",
           "price": 11,
-          "tags": ["V", "GF"]
+          "tags": [
+            "V",
+            "GF"
+          ]
         }
       ]
     },
@@ -251,49 +306,73 @@
           "name": "Aperol Spritz",
           "description": "Aperol, Prosecco, soda, orange.",
           "price": 14,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Negroni Sbagliato",
           "description": "Campari, red vermouth, Prosecco.",
           "price": 15,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Limoncello Spritz",
           "description": "House limoncello, Prosecco, mint.",
           "price": 14,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Prosecco di Valdobbiadene",
           "description": "By the glass.",
           "price": 12,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Vermentino di Sardegna",
           "description": "By the glass. Dry, saline, made for the seafood.",
           "price": 13,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Chianti Classico",
           "description": "By the glass.",
           "price": 14,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Caffè, Espresso, Macchiato",
           "description": "Roasted for us in Beirut.",
           "price": 5,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         },
         {
           "name": "Acqua Panna / San Pellegrino",
           "description": "75cl.",
           "price": 6,
-          "tags": ["VG", "GF"]
+          "tags": [
+            "VG",
+            "GF"
+          ]
         }
       ]
     }

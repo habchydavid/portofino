@@ -34,12 +34,11 @@ export function Story() {
             aria-hidden="true"
             className="absolute -right-3 -top-3 hidden h-full w-full border border-brass/50 sm:block"
           />
-          {/* TODO: replace with a photograph of the dining room. */}
           <SiteImage
-            src="/images/story-dining-room.svg"
-            alt="TODO: replace with a description of the dining room photograph"
-            width={1400}
-            height={1050}
+            src="/images/interior-kitchen.jpg"
+            alt="The open kitchen at Portofino seen across the bar counter, with the red wood-fired oven and exposed timber roof beams"
+            width={1080}
+            height={769}
             sizes="(min-width: 1024px) 40vw, 90vw"
             className="relative h-auto w-full object-cover"
           />

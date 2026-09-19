@@ -9,15 +9,18 @@ export function Hero() {
 
   return (
     <section className="relative isolate flex min-h-[100svh] items-end overflow-hidden">
-      {/* TODO: replace with a real photograph of the sea at golden hour.
-          Keep it wide (at least 2400px) — it is the first thing anyone sees. */}
+      {/* Golden hour over the bay. The source is a portrait frame, so the
+          focal point is pinned just above centre: that keeps the horizon and
+          the sun in shot when a wide viewport crops the top and bottom.
+          TODO: a wider, higher-resolution original would sharpen this up —
+          it is the first thing anyone sees. */}
       <SiteImage
-        src="/images/hero-sea-golden-hour.svg"
+        src="/images/sunset-drinks.jpg"
         alt=""
         fill
         priority
         sizes="100vw"
-        className="-z-10 object-cover"
+        className="-z-10 object-cover object-[50%_35%]"
       />
       {/* Scrims. These are what keep the type accessible over *any*
           photograph, however bright: one carries the headline block, the other

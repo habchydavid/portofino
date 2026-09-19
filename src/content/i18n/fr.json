@@ -37,7 +37,7 @@
       "title": "Une table au bord de l'eau",
       "body": [
         "Portofino est né d'une petite cuisine derrière le Vieux Souk, qui nourrissait les pêcheurs amarrés à quelques mètres de la porte. Les recettes venaient de Ligurie ; le poisson venait de la baie de Jounieh. Peu de choses ont changé depuis.",
-        "Nous achetons toujours la pêche au port le matin, nous roulons toujours les pâtes à la main, et nous dressons toujours les tables assez près de l'eau pour que le premier rang l'entende."
+        "Le four tourne toujours toute la soirée, les pâtes sont toujours roulées à la main chaque matin, et les tables sont toujours dressées assez près de l'eau pour que le premier rang l'entende."
       ],
       "cta": "En savoir plus"
     },
@@ -48,14 +48,14 @@
       "cta": "Voir toute la carte",
       "items": [
         {
-          "name": "Spaghetti alle Vongole",
-          "description": "Des palourdes ouvertes à la commande, du vin blanc, de l'ail, et la retenue de s'arrêter là.",
-          "alt": "TODO : remplacer par une photographie des spaghetti alle vongole"
+          "name": "Gamberoni alla Griglia",
+          "description": "Des gambas sur la braise, beurre à l'ail, un quartier de citron vert, et des feuilles pour recueillir le jus.",
+          "alt": "Des gambas grillées empilées sur une assiette noire avec de la salade et un quartier de citron vert"
         },
         {
-          "name": "Pesce del Giorno",
-          "description": "Le poisson arrivé ce matin, cuit en croûte de sel et découpé devant vous.",
-          "alt": "TODO : remplacer par une photographie du poisson du jour en croûte de sel"
+          "name": "Fichi e Prosciutto",
+          "description": "Figues et prosciutto sous la roquette et les copeaux de parmigiano, sortie du four à bois, la croûte boursouflée.",
+          "alt": "Une pizza au feu de bois garnie de figues, de prosciutto, de roquette et de copeaux de parmigiano, sur un plateau en bois"
         },
         {
           "name": "Tiramisù Classico",
@@ -165,7 +165,7 @@
   "gallery": {
     "eyebrow": "Galerie",
     "title": "La salle, la terrasse, les assiettes",
-    "intro": "TODO : remplacer chaque image ci-dessous par de vraies photographies. Les légendes servent aussi de texte alternatif.",
+    "intro": "La terrasse au coucher du soleil, le four en plein service, et ce qui en sort. Les vignettes encore marquées PLACEHOLDER attendent leurs photographies.",
     "openLabel": "Ouvrir l'image",
     "closeLabel": "Fermer l'image",
     "previousLabel": "Image précédente",

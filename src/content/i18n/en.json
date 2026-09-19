@@ -37,7 +37,7 @@
       "title": "A table at the water's edge",
       "body": [
         "Portofino began as a small kitchen behind the Old Souk, cooking for the fishermen who tied up a few metres from the door. The recipes came from Liguria; the fish came from Jounieh Bay. Very little has changed since.",
-        "We still buy the catch at the port in the morning, still roll the pasta by hand, and still set the tables so close to the water that the first row hears it."
+        "The oven still runs all evening, the pasta is still rolled by hand each morning, and the tables are still set close enough to the water that the first row hears it."
       ],
       "cta": "More about us"
     },
@@ -48,14 +48,14 @@
       "cta": "See the full menu",
       "items": [
         {
-          "name": "Spaghetti alle Vongole",
-          "description": "Clams opened to order, white wine, garlic, and the restraint to stop there.",
-          "alt": "TODO: replace with a photograph of spaghetti alle vongole"
+          "name": "Gamberoni alla Griglia",
+          "description": "King prawns over the coals, garlic butter, a wedge of lime, and leaves to catch what runs off.",
+          "alt": "Grilled king prawns piled on a black plate with salad leaves and a wedge of lime"
         },
         {
-          "name": "Pesce del Giorno",
-          "description": "Whatever came in this morning, baked in a salt crust and carved at your table.",
-          "alt": "TODO: replace with a photograph of the whole salt-baked fish of the day"
+          "name": "Fichi e Prosciutto",
+          "description": "Figs and prosciutto under rocket and shaved parmigiano, out of the wood oven with a blistered crust.",
+          "alt": "A wood-fired pizza topped with figs, prosciutto, rocket and shaved parmigiano on a wooden stand"
         },
         {
           "name": "Tiramisù Classico",
@@ -165,7 +165,7 @@
   "gallery": {
     "eyebrow": "Gallery",
     "title": "The room, the terrace, the plates",
-    "intro": "TODO: replace every image below with real photography. Captions double as alt text.",
+    "intro": "The terrace at sunset, the oven mid-service, and what comes off it. The tiles still marked PLACEHOLDER are waiting on photographs.",
     "openLabel": "Open image",
     "closeLabel": "Close image",
     "previousLabel": "Previous image",

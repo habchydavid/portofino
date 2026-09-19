@@ -1,17 +1,101 @@
 {
-  "_TODO": "PLACEHOLDER IMAGES — every entry points at generated artwork in /public/images. Drop real photographs in and update `src`, `width`, `height` and `alt`. `alt` is read aloud by screen readers and shown as the lightbox caption, so describe the photograph, do not just name it.",
+  "_TODO": "The first four entries are real photographs. The rest are generated placeholders — replace them, then delete this note. `alt` is read aloud by screen readers and shown as the lightbox caption, so describe the photograph rather than naming it.",
   "images": [
-    { "src": "/images/gallery-01.svg", "width": 1200, "height": 1600, "alt": "TODO: the terrace during sunset service, tables lit low against an orange sky" },
-    { "src": "/images/gallery-02.svg", "width": 1600, "height": 1100, "alt": "TODO: Jounieh bay at midday seen from the restaurant steps" },
-    { "src": "/images/gallery-03.svg", "width": 1200, "height": 1200, "alt": "TODO: a whole burrata with tomatoes and basil, overhead" },
-    { "src": "/images/gallery-04.svg", "width": 1200, "height": 1500, "alt": "TODO: the wood-fired oven at the end of the terrace, pizza going in" },
-    { "src": "/images/gallery-05.svg", "width": 1600, "height": 1000, "alt": "TODO: lanterns strung above the terrace after dark" },
-    { "src": "/images/gallery-06.svg", "width": 1200, "height": 1500, "alt": "TODO: the weekend trio playing beside the terrace rail" },
-    { "src": "/images/gallery-07.svg", "width": 1400, "height": 1400, "alt": "TODO: hands rolling and cutting pasta on a floured bench" },
-    { "src": "/images/gallery-08.svg", "width": 1600, "height": 1067, "alt": "TODO: the front row of tables, a step above the waterline" },
-    { "src": "/images/gallery-09.svg", "width": 1200, "height": 1600, "alt": "TODO: spritz glasses on a table with the sea behind" },
-    { "src": "/images/gallery-10.svg", "width": 1500, "height": 1000, "alt": "TODO: the morning catch in crates at Jounieh port" },
-    { "src": "/images/gallery-11.svg", "width": 1200, "height": 1500, "alt": "TODO: tiramisù dusted with cocoa, close up" },
-    { "src": "/images/gallery-12.svg", "width": 1600, "height": 1100, "alt": "TODO: the last table of the night, chairs and empty glasses" }
+    {
+      "src": "/images/sunset-drinks.jpg",
+      "width": 1080,
+      "height": 1390,
+      "alt": "Two cocktails on a terrace table at sunset, the sun dropping into the sea behind them"
+    },
+    {
+      "src": "/images/interior-kitchen.jpg",
+      "width": 1080,
+      "height": 769,
+      "alt": "The open kitchen seen across the bar counter, with the red wood-fired oven and exposed timber roof beams"
+    },
+    {
+      "src": "/images/dish-pizza-fichi.jpg",
+      "width": 1080,
+      "height": 1389,
+      "alt": "A wood-fired pizza topped with figs, prosciutto, rocket and shaved parmigiano on a wooden stand"
+    },
+    {
+      "src": "/images/dish-gamberoni.jpg",
+      "width": 1080,
+      "height": 1269,
+      "alt": "Grilled king prawns piled on a black plate with salad leaves and a wedge of lime"
+    },
+    {
+      "src": "/images/gallery-01.svg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "TODO: the terrace during sunset service, tables lit low against an orange sky"
+    },
+    {
+      "src": "/images/gallery-02.svg",
+      "width": 1600,
+      "height": 1100,
+      "alt": "TODO: Jounieh bay at midday seen from the restaurant steps"
+    },
+    {
+      "src": "/images/gallery-03.svg",
+      "width": 1200,
+      "height": 1200,
+      "alt": "TODO: a whole burrata with tomatoes and basil, overhead"
+    },
+    {
+      "src": "/images/gallery-04.svg",
+      "width": 1200,
+      "height": 1500,
+      "alt": "TODO: the wood-fired oven at the end of the terrace, pizza going in"
+    },
+    {
+      "src": "/images/gallery-05.svg",
+      "width": 1600,
+      "height": 1000,
+      "alt": "TODO: lanterns strung above the terrace after dark"
+    },
+    {
+      "src": "/images/gallery-06.svg",
+      "width": 1200,
+      "height": 1500,
+      "alt": "TODO: the weekend trio playing beside the terrace rail"
+    },
+    {
+      "src": "/images/gallery-07.svg",
+      "width": 1400,
+      "height": 1400,
+      "alt": "TODO: hands rolling and cutting pasta on a floured bench"
+    },
+    {
+      "src": "/images/gallery-08.svg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "TODO: the front row of tables, a step above the waterline"
+    },
+    {
+      "src": "/images/gallery-09.svg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "TODO: spritz glasses on a table with the sea behind"
+    },
+    {
+      "src": "/images/gallery-10.svg",
+      "width": 1500,
+      "height": 1000,
+      "alt": "TODO: the morning catch in crates at Jounieh port"
+    },
+    {
+      "src": "/images/gallery-11.svg",
+      "width": 1200,
+      "height": 1500,
+      "alt": "TODO: tiramisù dusted with cocoa, close up"
+    },
+    {
+      "src": "/images/gallery-12.svg",
+      "width": 1600,
+      "height": 1100,
+      "alt": "TODO: the last table of the night, chairs and empty glasses"
+    }
   ]
 }
