@@ -14,10 +14,12 @@ export const site = {
     "Italian cooking, the open sea, and a terrace that runs straight onto the sand.",
   // Where the site is actually served from, including any sub-path. Used for
   // canonical URLs, Open Graph images, sitemap.xml and the JSON-LD @id.
-  // The deploy sets NEXT_PUBLIC_SITE_URL; the fallback is the production
-  // domain.
-  // TODO: replace the fallback with the real production domain.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://portofinojounieh.com",
+  // The deploy sets NEXT_PUBLIC_SITE_URL to the live address; this fallback is
+  // only used by a local build.
+  // TODO: point this at the real domain once one is registered.
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    "https://habchydavid.github.io/portofino",
   locale: "en_GB",
 
   description:
@@ -32,7 +34,7 @@ export const site = {
   // Digits only, no "+" — this is what wa.me expects.
   whatsapp: "9619123456",
   // TODO: replace with the real reservations inbox.
-  email: "reservations@portofinojounieh.com",
+  email: "reservations@example.com",
 
   // --- Address -------------------------------------------------------------
   address: {
