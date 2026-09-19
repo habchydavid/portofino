@@ -37,10 +37,16 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
 
+      # Derive the sub-path from the repository itself, so renaming the repo
+      # moves the site without anyone editing this file. GITHUB_REPOSITORY is
+      # "owner/name" on every event type, unlike the event payload.
+      - name: Work out the Pages sub-path
+        run: |
+          NAME="${GITHUB_REPOSITORY#*/}"
+          echo "NEXT_PUBLIC_BASE_PATH=/$NAME" >> "$GITHUB_ENV"
+          echo "NEXT_PUBLIC_SITE_URL=https://${GITHUB_REPOSITORY_OWNER}.github.io/$NAME" >> "$GITHUB_ENV"
+
       - name: Build static export
-        env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
-          NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
         run: npm run build
 
       # Pages would otherwise run the output through Jekyll, which strips
