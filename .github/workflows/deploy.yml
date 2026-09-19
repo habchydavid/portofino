@@ -1,9 +1,8 @@
 # Builds the static export and publishes it to GitHub Pages.
 #
-# Pages serves a project site from https://<user>.github.io/<repo>/, so the
-# build runs with NEXT_PUBLIC_BASE_PATH set to that sub-path. Moving to a
-# custom domain later means clearing both variables below (and setting
-# NEXT_PUBLIC_SITE_URL to the new origin).
+# Where the site is served from is worked out at run time from the Pages API
+# (see "Work out the Pages URL"), so adding a custom domain, changing it, or
+# renaming the repository all take effect on the next run with no edit here.
 name: Deploy to GitHub Pages
 
 on:
@@ -37,14 +36,34 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
 
-      # Derive the sub-path from the repository itself, so renaming the repo
-      # moves the site without anyone editing this file. GITHUB_REPOSITORY is
-      # "owner/name" on every event type, unlike the event payload.
-      - name: Work out the Pages sub-path
+      # Work out where the site will actually be served from, and build for
+      # that. The two cases need opposite base paths, and getting it wrong
+      # makes every asset 404:
+      #
+      #   custom domain  →  served at the domain root      →  no base path
+      #   no custom domain → served at /<repo>/            →  base path /<repo>
+      #
+      # Ask the Pages API rather than hard-coding either, so adding, changing
+      # or removing a custom domain needs no edit here. Before Pages exists the
+      # call 404s, which is the no-custom-domain case anyway.
+      - name: Work out the Pages URL
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           NAME="${GITHUB_REPOSITORY#*/}"
-          echo "NEXT_PUBLIC_BASE_PATH=/$NAME" >> "$GITHUB_ENV"
-          echo "NEXT_PUBLIC_SITE_URL=https://${GITHUB_REPOSITORY_OWNER}.github.io/$NAME" >> "$GITHUB_ENV"
+          CNAME="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.cname // empty' 2>/dev/null || true)"
+
+          if [ -n "$CNAME" ]; then
+            echo "Custom domain: $CNAME"
+            echo "NEXT_PUBLIC_BASE_PATH=" >> "$GITHUB_ENV"
+            echo "NEXT_PUBLIC_SITE_URL=https://$CNAME" >> "$GITHUB_ENV"
+            # Ships in the export so the domain survives every deploy.
+            echo "$CNAME" > public/CNAME
+          else
+            echo "No custom domain; serving from /$NAME"
+            echo "NEXT_PUBLIC_BASE_PATH=/$NAME" >> "$GITHUB_ENV"
+            echo "NEXT_PUBLIC_SITE_URL=https://${GITHUB_REPOSITORY_OWNER}.github.io/$NAME" >> "$GITHUB_ENV"
+          fi
 
       - name: Build static export
         run: npm run build
